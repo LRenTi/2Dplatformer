@@ -9,7 +9,12 @@
 [Ll]ocal[Cc]ache/
 [Oo]bj/
 [Tt]emp/
+[Ll]ogs/
+[Bb]uilds/
 [Uu]nityGenerated/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
 # file on crash reports
 sysinfo.txt
 # Unity3D generated meta files
@@ -29,6 +34,15 @@ sysinfo.txt
 *.userprefs
 *.pidb
 .DS_Store
+.consulo/
+*.tmp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Gradle cache directory
+.gradle/
 
 ###
 # OS generated
@@ -41,3 +55,19 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
