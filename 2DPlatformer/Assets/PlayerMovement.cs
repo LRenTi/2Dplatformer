@@ -8,6 +8,9 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
 
     // Start is called before the first frame update
+
+    [SerializeField] private AudioSource jumpSoundEffect;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -24,7 +27,9 @@ public class PlayerMovement : MonoBehaviour
         // Vertical movement
         if (Input.GetButtonDown("Jump"))
         {
+            jumpSoundEffect.Play();
             rb.velocity = new Vector2(0, 14f);
+
         }
 
         if (dirX > 0f)
