@@ -15,8 +15,8 @@ public class ItemCollector : MonoBehaviour
         //Wenn das Objekt den richtigen Tag hat
         if(collision.gameObject.CompareTag("Strawberry"))
         {
-            //Zerstört das Strawberry Objekt nach 0.1 Sekunde(damit eine Animation existieren kann)
-            Destroy(collision.gameObject, 0.1f);
+            //Zerstört das Strawberry Objekt nach 0.3 Sekunde(damit eine Animation existieren kann)
+            Destroy(collision.gameObject, 0.3f);
             strawberryCount++;
             strawberryText.text = "Strawberries: " + strawberryCount;
         }
