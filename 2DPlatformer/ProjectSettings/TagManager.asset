@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  -Traps
-  -Strawberry
+  - Trap
+  - Strawberry
+  - InstaKillTrap
   layers:
   - Default
   - TransparentFX
