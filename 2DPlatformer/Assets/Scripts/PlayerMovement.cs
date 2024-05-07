@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D coll;
     private Animator anim;
     private float dirX = 0f;
+
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpSpeed = 14f;
     private enum MovementStatus {
@@ -20,7 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private AudioSource jumpSoundEffect;
-
+    [SerializeField] private AudioSource Walkeffect;
 
     // Start is called before the first frame update
     private void Start()
@@ -29,6 +31,9 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         sprite = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
+
+ 
+        IsGrounded();
     }
 
     // Update is called once per frame
@@ -56,16 +61,28 @@ public class PlayerMovement : MonoBehaviour
         {
             status = MovementStatus.running;
             sprite.flipX = false;
+            //Walkeffect.Play();
         }
         else if (dirX < 0f)
         {
             status = MovementStatus.running;
             sprite.flipX = true;
+            
         }
         else
         {
             status = MovementStatus.idle;
+            Walkeffect.Stop();
         }
+
+        if(status == MovementStatus.running)
+        {
+
+            if (!Walkeffect.isPlaying) { Walkeffect.Play(); }
+
+
+        }
+
 
         if (rb.velocity.y > .1f)
         {

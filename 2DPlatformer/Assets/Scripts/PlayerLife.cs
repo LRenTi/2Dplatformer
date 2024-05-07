@@ -12,6 +12,7 @@ public class PlayerLife : MonoBehaviour
     private bool dead = false;
 
     [SerializeField] private Text HPText;
+    [SerializeField] private AudioSource Deathsoundeffect;
 
     private void Start()
     {
@@ -46,6 +47,7 @@ public class PlayerLife : MonoBehaviour
     {
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
+        Deathsoundeffect.Play();
     }
 
     private void RestartLevel()
