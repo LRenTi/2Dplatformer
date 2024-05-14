@@ -12,6 +12,8 @@ TagManager:
   - Enemy
   - Box
   - Jumpable
+  - Powerup
+  - GM
   layers:
   - Default
   - TransparentFX
