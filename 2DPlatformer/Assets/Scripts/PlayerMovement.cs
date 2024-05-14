@@ -99,5 +99,25 @@ public class PlayerMovement : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, 0.1f, jumpableGround);
-    }   
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //Wenn das Objekt den richtigen Tag hat
+        if (collision.gameObject.CompareTag("Powerup_Pineapple"))
+        {
+            Debug.Log("Powerup_Pineapple");
+            Destroy(collision.gameObject);
+            jumpSpeed = 20f;
+            GetComponent <SpriteRenderer>().color = Color.yellow;
+            StartCoroutine(ResetPower());
+        }
+    }
+
+    private IEnumerator ResetPower()
+    {
+        yield return new WaitForSeconds(5);
+        jumpSpeed = 14f;
+        GetComponent<SpriteRenderer>().color = Color.white;
+    }
 }
