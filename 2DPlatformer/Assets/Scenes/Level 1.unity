@@ -15316,7 +15316,7 @@ GameObject:
   - component: {fileID: 1388159116}
   m_Layer: 0
   m_Name: CheckpointMaster
-  m_TagString: Untagged
+  m_TagString: GM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15342,8 +15342,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388159115}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.115763, y: 9.034683, z: -0.06305195}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 12.115761, y: 9.034683, z: -0.06305195}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -92274,11 +92274,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1520951080154921760, guid: 793cb54103e4d2a4eb7c1db60fcda7da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.302034
+      value: -2.99
       objectReference: {fileID: 0}
     - target: {fileID: 1520951080154921760, guid: 793cb54103e4d2a4eb7c1db60fcda7da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.44057894
+      value: 7.82
       objectReference: {fileID: 0}
     - target: {fileID: 1520951080154921760, guid: 793cb54103e4d2a4eb7c1db60fcda7da, type: 3}
       propertyPath: m_LocalPosition.z
