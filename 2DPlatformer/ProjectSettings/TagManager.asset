@@ -7,6 +7,13 @@ TagManager:
   - Trap
   - Strawberry
   - InstaKillTrap
+  - Powerup_Pineapple
+  - Powerup
+  - Enemy
+  - Box
+  - Jumpable
+  - Powerup
+  - GM
   layers:
   - Default
   - TransparentFX
