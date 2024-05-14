@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 25216259}
   m_Layer: 0
   m_Name: Spikes (73)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,7 +271,7 @@ GameObject:
   - component: {fileID: 85417807}
   m_Layer: 0
   m_Name: Spikes (52)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 121070794}
   m_Layer: 0
   m_Name: Spikes (146)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 134980319}
   m_Layer: 0
   m_Name: Spikes (142)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -661,7 +661,7 @@ GameObject:
   - component: {fileID: 142375745}
   m_Layer: 0
   m_Name: Spikes (168)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 144284301}
   m_Layer: 0
   m_Name: Spikes (49)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -921,7 +921,7 @@ GameObject:
   - component: {fileID: 156074177}
   m_Layer: 0
   m_Name: Spikes (12)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 162635136}
   m_Layer: 0
   m_Name: Spikes (50)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1181,7 +1181,7 @@ GameObject:
   - component: {fileID: 207712250}
   m_Layer: 0
   m_Name: Spikes (109)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1311,7 +1311,7 @@ GameObject:
   - component: {fileID: 210212881}
   m_Layer: 0
   m_Name: Spikes (89)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 210666170}
   m_Layer: 0
   m_Name: Spikes (166)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1571,7 +1571,7 @@ GameObject:
   - component: {fileID: 217428186}
   m_Layer: 0
   m_Name: Spikes (147)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1701,7 +1701,7 @@ GameObject:
   - component: {fileID: 228927445}
   m_Layer: 0
   m_Name: Spikes (17)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1831,7 +1831,7 @@ GameObject:
   - component: {fileID: 239867926}
   m_Layer: 0
   m_Name: Spikes (95)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1961,7 +1961,7 @@ GameObject:
   - component: {fileID: 257852633}
   m_Layer: 0
   m_Name: Spikes (159)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2091,7 +2091,7 @@ GameObject:
   - component: {fileID: 290919216}
   m_Layer: 0
   m_Name: Spikes (62)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2221,7 +2221,7 @@ GameObject:
   - component: {fileID: 291022610}
   m_Layer: 0
   m_Name: Spikes (11)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2351,7 +2351,7 @@ GameObject:
   - component: {fileID: 317570846}
   m_Layer: 0
   m_Name: Spikes (163)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2481,7 +2481,7 @@ GameObject:
   - component: {fileID: 330708500}
   m_Layer: 0
   m_Name: Spikes (46)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2611,7 +2611,7 @@ GameObject:
   - component: {fileID: 341058112}
   m_Layer: 0
   m_Name: Spikes (90)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2741,7 +2741,7 @@ GameObject:
   - component: {fileID: 353237415}
   m_Layer: 0
   m_Name: Spikes (63)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2871,7 +2871,7 @@ GameObject:
   - component: {fileID: 359960757}
   m_Layer: 0
   m_Name: Spikes (144)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3001,7 +3001,7 @@ GameObject:
   - component: {fileID: 373893992}
   m_Layer: 0
   m_Name: Spikes (19)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3131,7 +3131,7 @@ GameObject:
   - component: {fileID: 374653611}
   m_Layer: 0
   m_Name: Spikes (79)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3261,7 +3261,7 @@ GameObject:
   - component: {fileID: 375981006}
   m_Layer: 0
   m_Name: Spikes (47)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3391,7 +3391,7 @@ GameObject:
   - component: {fileID: 376181309}
   m_Layer: 0
   m_Name: Spikes (158)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3521,7 +3521,7 @@ GameObject:
   - component: {fileID: 380921403}
   m_Layer: 0
   m_Name: Spikes (8)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3651,7 +3651,7 @@ GameObject:
   - component: {fileID: 388564684}
   m_Layer: 0
   m_Name: Spikes (104)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3781,7 +3781,7 @@ GameObject:
   - component: {fileID: 430495229}
   m_Layer: 0
   m_Name: Spikes (111)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3916,7 +3916,7 @@ GameObject:
   - component: {fileID: 437273519}
   m_Layer: 0
   m_Name: Spikes (15)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4078,7 +4078,7 @@ GameObject:
   - component: {fileID: 467377754}
   m_Layer: 0
   m_Name: Spikes (133)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4208,7 +4208,7 @@ GameObject:
   - component: {fileID: 467541430}
   m_Layer: 0
   m_Name: Spikes (81)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4450,7 +4450,7 @@ GameObject:
   - component: {fileID: 486969667}
   m_Layer: 0
   m_Name: Spikes (28)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4580,7 +4580,7 @@ GameObject:
   - component: {fileID: 494659282}
   m_Layer: 0
   m_Name: Spikes (101)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4710,7 +4710,7 @@ GameObject:
   - component: {fileID: 499321921}
   m_Layer: 0
   m_Name: Spikes (141)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5079,7 +5079,7 @@ GameObject:
   - component: {fileID: 517367711}
   m_Layer: 0
   m_Name: Spikes (10)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5209,7 +5209,7 @@ GameObject:
   - component: {fileID: 517635073}
   m_Layer: 0
   m_Name: Spikes (76)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5344,7 +5344,7 @@ GameObject:
   - component: {fileID: 532835744}
   m_Layer: 0
   m_Name: Spikes (64)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5474,7 +5474,7 @@ GameObject:
   - component: {fileID: 542047959}
   m_Layer: 0
   m_Name: Spikes (3)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5604,7 +5604,7 @@ GameObject:
   - component: {fileID: 546658835}
   m_Layer: 0
   m_Name: Spikes (67)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5734,7 +5734,7 @@ GameObject:
   - component: {fileID: 553883228}
   m_Layer: 0
   m_Name: Spikes (61)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5864,7 +5864,7 @@ GameObject:
   - component: {fileID: 569158754}
   m_Layer: 0
   m_Name: Spikes (18)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5994,7 +5994,7 @@ GameObject:
   - component: {fileID: 590720840}
   m_Layer: 0
   m_Name: Spikes (102)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6124,7 +6124,7 @@ GameObject:
   - component: {fileID: 591364848}
   m_Layer: 0
   m_Name: Spikes (108)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6254,7 +6254,7 @@ GameObject:
   - component: {fileID: 598280835}
   m_Layer: 0
   m_Name: Spikes (26)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6384,7 +6384,7 @@ GameObject:
   - component: {fileID: 605430609}
   m_Layer: 0
   m_Name: Spikes (156)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6514,7 +6514,7 @@ GameObject:
   - component: {fileID: 613193808}
   m_Layer: 0
   m_Name: Spikes (135)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6644,7 +6644,7 @@ GameObject:
   - component: {fileID: 644187096}
   m_Layer: 0
   m_Name: Spikes (131)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6853,7 +6853,7 @@ GameObject:
   - component: {fileID: 662465471}
   m_Layer: 0
   m_Name: Spikes (83)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6983,7 +6983,7 @@ GameObject:
   - component: {fileID: 689852199}
   m_Layer: 0
   m_Name: Spikes (154)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7113,7 +7113,7 @@ GameObject:
   - component: {fileID: 738457150}
   m_Layer: 0
   m_Name: Spikes (140)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7243,7 +7243,7 @@ GameObject:
   - component: {fileID: 742190528}
   m_Layer: 0
   m_Name: Spikes (78)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7373,7 +7373,7 @@ GameObject:
   - component: {fileID: 749269282}
   m_Layer: 0
   m_Name: Spikes (139)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7503,7 +7503,7 @@ GameObject:
   - component: {fileID: 759609574}
   m_Layer: 0
   m_Name: Spikes (96)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7633,7 +7633,7 @@ GameObject:
   - component: {fileID: 759999520}
   m_Layer: 0
   m_Name: Spikes (92)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7763,7 +7763,7 @@ GameObject:
   - component: {fileID: 763320908}
   m_Layer: 0
   m_Name: Spikes (94)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7893,7 +7893,7 @@ GameObject:
   - component: {fileID: 765571451}
   m_Layer: 0
   m_Name: Spikes (60)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8023,7 +8023,7 @@ GameObject:
   - component: {fileID: 783000329}
   m_Layer: 0
   m_Name: Spikes (75)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8153,7 +8153,7 @@ GameObject:
   - component: {fileID: 810031716}
   m_Layer: 0
   m_Name: Spikes (130)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8283,7 +8283,7 @@ GameObject:
   - component: {fileID: 815017014}
   m_Layer: 0
   m_Name: Spikes (164)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8475,7 +8475,7 @@ GameObject:
   - component: {fileID: 847599349}
   m_Layer: 0
   m_Name: Spikes (97)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8605,7 +8605,7 @@ GameObject:
   - component: {fileID: 849726136}
   m_Layer: 0
   m_Name: Spikes (126)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8735,7 +8735,7 @@ GameObject:
   - component: {fileID: 861294574}
   m_Layer: 0
   m_Name: Spikes (53)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8865,7 +8865,7 @@ GameObject:
   - component: {fileID: 874938807}
   m_Layer: 0
   m_Name: Spikes (143)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8995,7 +8995,7 @@ GameObject:
   - component: {fileID: 887203707}
   m_Layer: 0
   m_Name: Spikes (23)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9125,7 +9125,7 @@ GameObject:
   - component: {fileID: 891095498}
   m_Layer: 0
   m_Name: Spikes (37)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9255,7 +9255,7 @@ GameObject:
   - component: {fileID: 898986307}
   m_Layer: 0
   m_Name: Spikes (117)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9385,7 +9385,7 @@ GameObject:
   - component: {fileID: 903193562}
   m_Layer: 0
   m_Name: Spikes (93)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9515,7 +9515,7 @@ GameObject:
   - component: {fileID: 927678948}
   m_Layer: 0
   m_Name: Spikes (48)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9707,7 +9707,7 @@ GameObject:
   - component: {fileID: 940645316}
   m_Layer: 0
   m_Name: Spikes (151)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9837,7 +9837,7 @@ GameObject:
   - component: {fileID: 970513095}
   m_Layer: 0
   m_Name: Spikes (115)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9967,7 +9967,7 @@ GameObject:
   - component: {fileID: 974566523}
   m_Layer: 0
   m_Name: Spikes (44)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10097,7 +10097,7 @@ GameObject:
   - component: {fileID: 976411382}
   m_Layer: 0
   m_Name: Spikes (21)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10227,7 +10227,7 @@ GameObject:
   - component: {fileID: 987093307}
   m_Layer: 0
   m_Name: Spikes (116)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10616,7 +10616,7 @@ GameObject:
   - component: {fileID: 1015706498}
   m_Layer: 0
   m_Name: Spikes (148)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10746,7 +10746,7 @@ GameObject:
   - component: {fileID: 1026916976}
   m_Layer: 0
   m_Name: Spikes (33)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10876,7 +10876,7 @@ GameObject:
   - component: {fileID: 1030269094}
   m_Layer: 0
   m_Name: Spikes (36)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11006,7 +11006,7 @@ GameObject:
   - component: {fileID: 1040591165}
   m_Layer: 0
   m_Name: Spikes (120)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11136,7 +11136,7 @@ GameObject:
   - component: {fileID: 1040738808}
   m_Layer: 0
   m_Name: Spikes (149)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11266,7 +11266,7 @@ GameObject:
   - component: {fileID: 1065902666}
   m_Layer: 0
   m_Name: Spikes (71)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11396,7 +11396,7 @@ GameObject:
   - component: {fileID: 1092620048}
   m_Layer: 0
   m_Name: Spikes (16)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11526,7 +11526,7 @@ GameObject:
   - component: {fileID: 1093066179}
   m_Layer: 0
   m_Name: Spikes (20)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11656,7 +11656,7 @@ GameObject:
   - component: {fileID: 1107305434}
   m_Layer: 0
   m_Name: Spikes (7)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11786,7 +11786,7 @@ GameObject:
   - component: {fileID: 1119599845}
   m_Layer: 0
   m_Name: Spikes (100)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11916,7 +11916,7 @@ GameObject:
   - component: {fileID: 1120818057}
   m_Layer: 0
   m_Name: Spikes (127)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12046,7 +12046,7 @@ GameObject:
   - component: {fileID: 1127124253}
   m_Layer: 0
   m_Name: Spikes (91)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12176,7 +12176,7 @@ GameObject:
   - component: {fileID: 1139866310}
   m_Layer: 0
   m_Name: Spikes (57)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12306,7 +12306,7 @@ GameObject:
   - component: {fileID: 1147402719}
   m_Layer: 0
   m_Name: Spikes (88)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12436,7 +12436,7 @@ GameObject:
   - component: {fileID: 1163931878}
   m_Layer: 0
   m_Name: Spikes (32)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12566,7 +12566,7 @@ GameObject:
   - component: {fileID: 1169162164}
   m_Layer: 0
   m_Name: Spikes (82)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12758,7 +12758,7 @@ GameObject:
   - component: {fileID: 1174448770}
   m_Layer: 0
   m_Name: Spikes (124)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12888,7 +12888,7 @@ GameObject:
   - component: {fileID: 1176177577}
   m_Layer: 0
   m_Name: Spikes (42)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13018,7 +13018,7 @@ GameObject:
   - component: {fileID: 1177710070}
   m_Layer: 0
   m_Name: Spikes (118)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13148,7 +13148,7 @@ GameObject:
   - component: {fileID: 1180859283}
   m_Layer: 0
   m_Name: Spikes (86)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13283,7 +13283,7 @@ GameObject:
   - component: {fileID: 1197766194}
   m_Layer: 0
   m_Name: Spikes (77)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13413,7 +13413,7 @@ GameObject:
   - component: {fileID: 1209184273}
   m_Layer: 0
   m_Name: Spikes (30)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13543,7 +13543,7 @@ GameObject:
   - component: {fileID: 1214170591}
   m_Layer: 0
   m_Name: Spikes (105)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13673,7 +13673,7 @@ GameObject:
   - component: {fileID: 1220481655}
   m_Layer: 0
   m_Name: Spikes (128)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13803,7 +13803,7 @@ GameObject:
   - component: {fileID: 1221902038}
   m_Layer: 0
   m_Name: Spikes (13)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14132,7 +14132,7 @@ GameObject:
   - component: {fileID: 1278259918}
   m_Layer: 0
   m_Name: Spikes (84)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14262,7 +14262,7 @@ GameObject:
   - component: {fileID: 1288192847}
   m_Layer: 0
   m_Name: Spikes (72)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14392,7 +14392,7 @@ GameObject:
   - component: {fileID: 1290390828}
   m_Layer: 0
   m_Name: Spikes (152)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14522,7 +14522,7 @@ GameObject:
   - component: {fileID: 1330004345}
   m_Layer: 0
   m_Name: Spikes (136)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14652,7 +14652,7 @@ GameObject:
   - component: {fileID: 1338473844}
   m_Layer: 0
   m_Name: Spikes (106)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14782,7 +14782,7 @@ GameObject:
   - component: {fileID: 1368564354}
   m_Layer: 0
   m_Name: Spikes (25)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14912,7 +14912,7 @@ GameObject:
   - component: {fileID: 1378818760}
   m_Layer: 0
   m_Name: Spikes (69)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15042,7 +15042,7 @@ GameObject:
   - component: {fileID: 1378974419}
   m_Layer: 0
   m_Name: Spikes (80)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15172,7 +15172,7 @@ GameObject:
   - component: {fileID: 1434478012}
   m_Layer: 0
   m_Name: Spikes (70)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15302,7 +15302,7 @@ GameObject:
   - component: {fileID: 1453539041}
   m_Layer: 0
   m_Name: Spikes (5)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15432,7 +15432,7 @@ GameObject:
   - component: {fileID: 1463790383}
   m_Layer: 0
   m_Name: Spikes (45)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15562,7 +15562,7 @@ GameObject:
   - component: {fileID: 1466790966}
   m_Layer: 0
   m_Name: Spikes (103)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15692,7 +15692,7 @@ GameObject:
   - component: {fileID: 1469822395}
   m_Layer: 0
   m_Name: Spikes (59)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15827,7 +15827,7 @@ GameObject:
   - component: {fileID: 1477039712}
   m_Layer: 0
   m_Name: Spikes (134)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15957,7 +15957,7 @@ GameObject:
   - component: {fileID: 1495625107}
   m_Layer: 0
   m_Name: Spikes (29)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16149,7 +16149,7 @@ GameObject:
   - component: {fileID: 1500545298}
   m_Layer: 0
   m_Name: Spikes (153)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84497,7 +84497,7 @@ GameObject:
   - component: {fileID: 1530873730}
   m_Layer: 0
   m_Name: Spikes (51)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84627,7 +84627,7 @@ GameObject:
   - component: {fileID: 1532629477}
   m_Layer: 0
   m_Name: Spikes (165)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84789,7 +84789,7 @@ GameObject:
   - component: {fileID: 1555925823}
   m_Layer: 0
   m_Name: Spikes (65)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84919,7 +84919,7 @@ GameObject:
   - component: {fileID: 1557920446}
   m_Layer: 0
   m_Name: Spikes (119)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85049,7 +85049,7 @@ GameObject:
   - component: {fileID: 1559493095}
   m_Layer: 0
   m_Name: Spikes (68)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85179,7 +85179,7 @@ GameObject:
   - component: {fileID: 1601658472}
   m_Layer: 0
   m_Name: Spikes (22)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85309,7 +85309,7 @@ GameObject:
   - component: {fileID: 1603625768}
   m_Layer: 0
   m_Name: Spikes (155)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85439,7 +85439,7 @@ GameObject:
   - component: {fileID: 1622906106}
   m_Layer: 0
   m_Name: Spikes (34)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85569,7 +85569,7 @@ GameObject:
   - component: {fileID: 1630043750}
   m_Layer: 0
   m_Name: Spikes (167)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85699,7 +85699,7 @@ GameObject:
   - component: {fileID: 1641067794}
   m_Layer: 0
   m_Name: Spikes (161)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85891,7 +85891,7 @@ GameObject:
   - component: {fileID: 1663900804}
   m_Layer: 0
   m_Name: Spikes (150)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86021,7 +86021,7 @@ GameObject:
   - component: {fileID: 1668981180}
   m_Layer: 0
   m_Name: Spikes (56)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86151,7 +86151,7 @@ GameObject:
   - component: {fileID: 1670582174}
   m_Layer: 0
   m_Name: Spikes (4)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86281,7 +86281,7 @@ GameObject:
   - component: {fileID: 1676505623}
   m_Layer: 0
   m_Name: Spikes (40)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86411,7 +86411,7 @@ GameObject:
   - component: {fileID: 1681893270}
   m_Layer: 0
   m_Name: Spikes (43)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86541,7 +86541,7 @@ GameObject:
   - component: {fileID: 1689194531}
   m_Layer: 0
   m_Name: Spikes (38)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86671,7 +86671,7 @@ GameObject:
   - component: {fileID: 1706162803}
   m_Layer: 0
   m_Name: Spikes (74)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86801,7 +86801,7 @@ GameObject:
   - component: {fileID: 1725510937}
   m_Layer: 0
   m_Name: Spikes (112)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86931,7 +86931,7 @@ GameObject:
   - component: {fileID: 1726691759}
   m_Layer: 0
   m_Name: Spikes (132)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87257,7 +87257,7 @@ GameObject:
   - component: {fileID: 1774646803}
   m_Layer: 0
   m_Name: Spikes (55)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87387,7 +87387,7 @@ GameObject:
   - component: {fileID: 1779310510}
   m_Layer: 0
   m_Name: Spikes (122)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87517,7 +87517,7 @@ GameObject:
   - component: {fileID: 1779328189}
   m_Layer: 0
   m_Name: Spikes (162)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87647,7 +87647,7 @@ GameObject:
   - component: {fileID: 1825594825}
   m_Layer: 0
   m_Name: Spikes (114)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87777,7 +87777,7 @@ GameObject:
   - component: {fileID: 1826072204}
   m_Layer: 0
   m_Name: Spikes (41)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87954,7 +87954,7 @@ GameObject:
   - component: {fileID: 1866948236}
   m_Layer: 0
   m_Name: Spikes (6)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88084,7 +88084,7 @@ GameObject:
   - component: {fileID: 1882505364}
   m_Layer: 0
   m_Name: Spikes (160)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88214,7 +88214,7 @@ GameObject:
   - component: {fileID: 1888117590}
   m_Layer: 0
   m_Name: Spikes (98)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88344,7 +88344,7 @@ GameObject:
   - component: {fileID: 1926309479}
   m_Layer: 0
   m_Name: Spikes (113)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88474,7 +88474,7 @@ GameObject:
   - component: {fileID: 1928355285}
   m_Layer: 0
   m_Name: Spikes (157)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88604,7 +88604,7 @@ GameObject:
   - component: {fileID: 1930617377}
   m_Layer: 0
   m_Name: Spikes (87)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88734,7 +88734,7 @@ GameObject:
   - component: {fileID: 1939429519}
   m_Layer: 0
   m_Name: Spikes (9)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88864,7 +88864,7 @@ GameObject:
   - component: {fileID: 1957881399}
   m_Layer: 0
   m_Name: Spikes (31)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88994,7 +88994,7 @@ GameObject:
   - component: {fileID: 1973966682}
   m_Layer: 0
   m_Name: Spikes (2)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89124,7 +89124,7 @@ GameObject:
   - component: {fileID: 1986169774}
   m_Layer: 0
   m_Name: Spikes (123)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89254,7 +89254,7 @@ GameObject:
   - component: {fileID: 1989530804}
   m_Layer: 0
   m_Name: Spikes (85)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89384,7 +89384,7 @@ GameObject:
   - component: {fileID: 1989948062}
   m_Layer: 0
   m_Name: Spikes (125)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89514,7 +89514,7 @@ GameObject:
   - component: {fileID: 1995326990}
   m_Layer: 0
   m_Name: Spikes (66)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89644,7 +89644,7 @@ GameObject:
   - component: {fileID: 1999010671}
   m_Layer: 0
   m_Name: Spikes (129)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89774,7 +89774,7 @@ GameObject:
   - component: {fileID: 2008333574}
   m_Layer: 0
   m_Name: Spikes (54)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89904,7 +89904,7 @@ GameObject:
   - component: {fileID: 2012781934}
   m_Layer: 0
   m_Name: Spikes (110)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90034,7 +90034,7 @@ GameObject:
   - component: {fileID: 2025307500}
   m_Layer: 0
   m_Name: Spikes (24)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90164,7 +90164,7 @@ GameObject:
   - component: {fileID: 2036380452}
   m_Layer: 0
   m_Name: Spikes (138)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90294,7 +90294,7 @@ GameObject:
   - component: {fileID: 2047732227}
   m_Layer: 0
   m_Name: Spikes (145)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90424,7 +90424,7 @@ GameObject:
   - component: {fileID: 2054650621}
   m_Layer: 0
   m_Name: Spikes (39)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90559,7 +90559,7 @@ GameObject:
   - component: {fileID: 2089397586}
   m_Layer: 0
   m_Name: Spikes (35)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90689,7 +90689,7 @@ GameObject:
   - component: {fileID: 2093476551}
   m_Layer: 0
   m_Name: Spikes (137)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90819,7 +90819,7 @@ GameObject:
   - component: {fileID: 2094951399}
   m_Layer: 0
   m_Name: Spikes (14)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90949,7 +90949,7 @@ GameObject:
   - component: {fileID: 2095553665}
   m_Layer: 0
   m_Name: Spikes (107)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91079,7 +91079,7 @@ GameObject:
   - component: {fileID: 2106706085}
   m_Layer: 0
   m_Name: Spikes (121)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91209,7 +91209,7 @@ GameObject:
   - component: {fileID: 2127277142}
   m_Layer: 0
   m_Name: Spikes (99)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91339,7 +91339,7 @@ GameObject:
   - component: {fileID: 2129022876}
   m_Layer: 0
   m_Name: Spikes (27)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91469,7 +91469,7 @@ GameObject:
   - component: {fileID: 2130448905}
   m_Layer: 0
   m_Name: Spikes (58)
-  m_TagString: Trap
+  m_TagString: InstaKillTrap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91637,6 +91637,10 @@ PrefabInstance:
     - target: {fileID: 8387811175461214837, guid: a21beaec28b4d8c43a91e23a27489c16, type: 3}
       propertyPath: m_Name
       value: Spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387811175461214837, guid: a21beaec28b4d8c43a91e23a27489c16, type: 3}
+      propertyPath: m_TagString
+      value: InstaKillTrap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
