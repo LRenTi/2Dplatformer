@@ -10,6 +10,16 @@ public class PlayerLife : MonoBehaviour
     private Animator anim;
     private int hp = 1;
     private bool dead = false;
+    private float dirX = 0f;
+
+    private enum state {
+        idle,
+        running,
+        jumping,
+        falling
+    }
+
+    private state status;
 
     [SerializeField] private Text HPText;
     [SerializeField] private AudioSource Deathsoundeffect;
@@ -27,6 +37,39 @@ public class PlayerLife : MonoBehaviour
             Die();
             dead = true;
         }
+
+        dirX = Input.GetAxisRaw("Horizontal");
+        UpdateAnimationState();
+
+    }
+
+        private void UpdateAnimationState()
+    {
+
+        if (dirX > 0f)
+        {
+            status = state.running;
+        }
+        else if (dirX < 0f)
+        {
+            status = state.running;
+        }
+        else
+        {
+            status = state.idle;
+        }
+
+
+        if (rb.velocity.y > .1f)
+        {
+            status = state.jumping;
+        }
+        else if (rb.velocity.y < -.1f)
+        {
+            status = state.falling;
+        }
+
+        anim.SetInteger("status", (int)status);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -40,6 +83,23 @@ public class PlayerLife : MonoBehaviour
         {
             hp = 0;
             HPText.text = "HP: " + hp;
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            if (status == state.falling)
+            {
+                rb.velocity = new Vector2(rb.velocity.x, 10);
+            }
+            else if (collision.gameObject.transform.position.x > transform.position.x)
+            {
+                hp--;
+                HPText.text = "HP: " + hp;
+            }
+            else
+            {
+                hp--;
+                HPText.text = "HP: " + hp;
+            }
         }
     }
 

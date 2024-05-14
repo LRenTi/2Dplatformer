@@ -13,12 +13,15 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpSpeed = 14f;
+    //[SerializeField] private float hurtForce = 10f;
     private enum MovementStatus {
         idle,
         running,
         jumping,
-        falling
+        falling,
+        hurt
     }
+    private MovementStatus status = MovementStatus.idle;
 
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private AudioSource jumpSoundEffect;
@@ -39,6 +42,17 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
+        if(status != MovementStatus.hurt)
+        {
+            Movement();
+        }
+
+        UpdateAnimationState();
+    }
+
+    private void Movement()
+    {
         // Horzontal movement
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
@@ -49,13 +63,10 @@ public class PlayerMovement : MonoBehaviour
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpSpeed); 
         }
-
-        UpdateAnimationState();
     }
 
     private void UpdateAnimationState()
     {
-        MovementStatus status;
 
         if (dirX > 0f)
         {
@@ -111,6 +122,17 @@ public class PlayerMovement : MonoBehaviour
             jumpSpeed = 20f;
             GetComponent <SpriteRenderer>().color = Color.yellow;
             StartCoroutine(ResetPower());
+        }
+    }
+
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            if(status == MovementStatus.falling){
+                Destroy(other.gameObject);
+            }
         }
     }
 

@@ -8,6 +8,8 @@ TagManager:
   - Strawberry
   - InstaKillTrap
   - Powerup_Pineapple
+  - Powerup
+  - Enemy
   layers:
   - Default
   - TransparentFX
