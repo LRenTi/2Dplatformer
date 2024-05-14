@@ -87,10 +87,12 @@ public class PlayerMovement : MonoBehaviour
         if (rb.velocity.y > .1f)
         {
             status = MovementStatus.jumping;
+            Walkeffect.Stop();
         }
         else if (rb.velocity.y < -.1f)
         {
             status = MovementStatus.falling;
+            Walkeffect.Stop();
         }
 
         anim.SetInteger("status", (int)status);
