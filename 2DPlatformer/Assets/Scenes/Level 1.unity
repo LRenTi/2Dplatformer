@@ -91663,6 +91663,10 @@ PrefabInstance:
       propertyPath: strawberryText
       value: 
       objectReference: {fileID: 473937997}
+    - target: {fileID: 2779278046298035246, guid: 32ccb476bbb16094f97e98c60ae6f8c4, type: 3}
+      propertyPath: Mute
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4468826471952671264, guid: 32ccb476bbb16094f97e98c60ae6f8c4, type: 3}
       propertyPath: HPText
       value: 
