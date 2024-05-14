@@ -4058,7 +4058,7 @@ Transform:
   m_GameObject: {fileID: 446330721}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.51, y: 0.66, z: 0}
+  m_LocalPosition: {x: 50.9, y: 1.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9041,7 +9041,7 @@ Transform:
   m_GameObject: {fileID: 879641789}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.07, y: 0.093936324, z: 0.043949805}
+  m_LocalPosition: {x: 4.7, y: -0.16, z: 0.043949805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -85516,7 +85516,7 @@ Transform:
   m_GameObject: {fileID: 1618883886}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.35, y: 0.093936324, z: 0.043949805}
+  m_LocalPosition: {x: -4.2, y: -0.05, z: 0.043949805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86377,6 +86377,8 @@ GameObject:
   - component: {fileID: 1674497725}
   - component: {fileID: 1674497724}
   - component: {fileID: 1674497728}
+  - component: {fileID: 1674497730}
+  - component: {fileID: 1674497729}
   m_Layer: 0
   m_Name: NinjaFrog
   m_TagString: Enemy
@@ -86410,7 +86412,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 5
 --- !u!61 &1674497725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -86517,7 +86519,7 @@ Transform:
   m_GameObject: {fileID: 1674497723}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.04, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -86532,13 +86534,54 @@ MonoBehaviour:
   m_GameObject: {fileID: 1674497723}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 214261654c2f5ee469d5913d63a6ab0f, type: 3}
+  m_Script: {fileID: 11500000, guid: bf166a1e2cc23a542986553d0d572c70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
   - {fileID: 1618883886}
   - {fileID: 879641789}
   speed: 2
+  jumpheigth: 0
+  jumpLength: 0
+  Ground:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!95 &1674497729
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674497723}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5b8942c6c877e044c8ef5baf573343b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!111 &1674497730
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674497723}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: bbd41033fd6295e4cb6c874dd3218b72, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1676505621
 GameObject:
   m_ObjectHideFlags: 0
