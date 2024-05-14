@@ -10,6 +10,8 @@ TagManager:
   - Powerup_Pineapple
   - Powerup
   - Enemy
+  - Box
+  - Jumpable
   layers:
   - Default
   - TransparentFX
