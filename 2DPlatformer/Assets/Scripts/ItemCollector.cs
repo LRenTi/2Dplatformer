@@ -20,6 +20,10 @@ public class ItemCollector : MonoBehaviour
             strawberryCount++;
             strawberryText.text = "Strawberries: " + strawberryCount;
         }
+        if(collision.gameObject.CompareTag("Powerup"))
+        {
+            Destroy(collision.gameObject, 0.3f);
+        }
     }
 }
 

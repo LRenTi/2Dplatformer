@@ -117,13 +117,15 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //Wenn das Objekt den richtigen Tag hat
-        if (collision.gameObject.CompareTag("Powerup_Pineapple"))
+        if (collision.gameObject.CompareTag("Powerup"))
         {
-            Debug.Log("Powerup_Pineapple");
-            Destroy(collision.gameObject);
-            jumpSpeed = 20f;
-            GetComponent <SpriteRenderer>().color = Color.yellow;
-            StartCoroutine(ResetPower());
+            if (collision.gameObject.name.Contains("Pineapple"))
+            {
+                Debug.Log("Powerup_Pineapple");
+                jumpSpeed = 20f;
+                GetComponent<SpriteRenderer>().color = Color.yellow;
+                StartCoroutine(ResetPower());
+            }
         }
     }
 
