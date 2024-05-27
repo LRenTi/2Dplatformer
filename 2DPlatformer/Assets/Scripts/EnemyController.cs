@@ -17,6 +17,12 @@ public class EnemyController : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
     private bool facingRight = true;
+    private bool dead = false;
+
+    public void setDead(bool choice) 
+    {
+        dead = choice; 
+    }
 
     void Start()
     {
@@ -27,6 +33,13 @@ public class EnemyController : MonoBehaviour
     }
     private void Update()
     {
+        if (dead)
+        {
+            anim.SetTrigger("death");
+            rb.bodyType = RigidbodyType2D.Static;
+            Destroy(gameObject, 0.5f);
+            dead = false;
+        }
         if (Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position) < .1f)
         {
             if (facingRight)

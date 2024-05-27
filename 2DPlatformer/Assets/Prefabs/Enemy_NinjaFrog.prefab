@@ -44,7 +44,6 @@ GameObject:
   - component: {fileID: 5000355398581330897}
   - component: {fileID: 938619867618674576}
   - component: {fileID: 1093221872881821343}
-  - component: {fileID: 7628598112903169724}
   - component: {fileID: 2092185232103180354}
   m_Layer: 0
   m_Name: NinjaFrog
@@ -213,21 +212,6 @@ MonoBehaviour:
   Ground:
     serializedVersion: 2
     m_Bits: 0
---- !u!111 &7628598112903169724
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 814507013423940663}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: bbd41033fd6295e4cb6c874dd3218b72, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!95 &2092185232103180354
 Animator:
   serializedVersion: 5

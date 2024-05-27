@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "Enemy")
         {
             if(status == MovementStatus.falling){
-                Destroy(other.gameObject);
+                other.gameObject.GetComponent<EnemyController>().setDead(true);
             }
         }
         if (other.gameObject.CompareTag("Trap"))
