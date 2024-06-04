@@ -5,6 +5,7 @@ using UnityEngine;
 public class CheckpointPlayerPos : MonoBehaviour
 {
     private Checkpointmaster GM;
+    
     // Start is called before the first frame update
     void Start()
     {

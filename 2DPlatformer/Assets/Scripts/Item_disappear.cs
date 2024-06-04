@@ -6,11 +6,11 @@ using UnityEngine.UI;
 
 public class ItemDisappear : MonoBehaviour
 {
-    private Animator StrawberryAnim;
+    private Animator Anim;
 
     private void Start()
     {
-        StrawberryAnim = GetComponent<Animator>();
+        Anim = GetComponent<Animator>();
     }
 
     //Wenn der Spieler mit einem Objekt dagegen stoßt
@@ -19,7 +19,7 @@ public class ItemDisappear : MonoBehaviour
         //Wenn das Objekt den richtigen Tag hat
         if(collision.gameObject.CompareTag("Player"))
         {
-            StrawberryAnim.SetBool("collected", true);
+            Anim.SetBool("collected", true);
             //Destroy(collision.gameObject);
             //Debug.Log(collision.gameObject);
             //Debug.Log(collision);

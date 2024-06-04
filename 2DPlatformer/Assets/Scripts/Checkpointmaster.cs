@@ -5,27 +5,26 @@ using UnityEngine;
 public class Checkpointmaster : MonoBehaviour
 {
     private static Checkpointmaster instance;
-    public Vector2 lastCheckPointPos = new Vector2(1, 1);
+    public Vector2 defaultSpawnPos = new Vector2(-0.04f, 3.19f); // Default spawn coordinates
+    public Vector2 lastCheckPointPos;
 
     void Awake()
     {
-        if(instance == null){
+        if (instance == null)
+        {
             instance = this;
             DontDestroyOnLoad(instance);
-        } else {
-           Destroy(gameObject);
+            lastCheckPointPos = defaultSpawnPos; // Initialize to default spawn position
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {   
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+    // Call this method when a new level is loaded
+    public void ResetCheckpoint()
     {
-        
+        lastCheckPointPos = defaultSpawnPos;
     }
 }
