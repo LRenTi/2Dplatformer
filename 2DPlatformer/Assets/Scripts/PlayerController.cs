@@ -130,6 +130,14 @@ public class PlayerController : MonoBehaviour
                 GetComponent<SpriteRenderer>().color = Color.yellow;
                 StartCoroutine(ResetPower());
             }
+
+            if (other.gameObject.name.Contains("Melon"))
+            {
+                Debug.Log("Powerup_Melon");
+                moveSpeed = 14f;
+                GetComponent<SpriteRenderer>().color = Color.red;
+                StartCoroutine(ResetPower());
+            }
         }
     }
 
@@ -173,7 +181,15 @@ public class PlayerController : MonoBehaviour
     private IEnumerator ResetPower()
     {
         yield return new WaitForSeconds(5);
-        jumpSpeed = 14f;
+        if(jumpSpeed > 14f)
+        {
+            jumpSpeed = 14f;
+        }
+        
+        if(moveSpeed > 7f)
+        {
+            moveSpeed = 7f;
+        }
         GetComponent<SpriteRenderer>().color = Color.white;
     }
     private void Die()
