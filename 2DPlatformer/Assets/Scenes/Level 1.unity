@@ -401,6 +401,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 333935275720650976, guid: 4414b512289ab914a91e242415ba8930, type: 3}
+      propertyPath: HPText
+      value: 
+      objectReference: {fileID: 662015844}
+    - target: {fileID: 6490518374796360016, guid: 4414b512289ab914a91e242415ba8930, type: 3}
+      propertyPath: strawberryText
+      value: 
+      objectReference: {fileID: 473937997}
     - target: {fileID: 7958146944902515153, guid: 4414b512289ab914a91e242415ba8930, type: 3}
       propertyPath: m_Name
       value: Player
