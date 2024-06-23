@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -14,10 +13,12 @@ public class PlayerController : MonoBehaviour
     private int hp = 1;
     private float dirX = 0f;
     private bool dead = false;
+    private Coroutine powerupCoroutine;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField] private float jumpSpeed = 14f;
     //[SerializeField] private float hurtForce = 10f;
-    private enum MovementStatus {
+    private enum MovementStatus
+    {
         idle,
         running,
         jumping,
@@ -31,7 +32,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Text HPText;
     [SerializeField] private AudioSource Deathsoundeffect;
 
-
     // Start is called before the first frame update
     private void Start()
     {
@@ -42,6 +42,7 @@ public class PlayerController : MonoBehaviour
 
         IsGrounded();
     }
+
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, 0.1f, jumpableGround);
@@ -49,12 +50,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if(hp < 1 && !dead)
+        if (hp < 1 && !dead)
         {
             Die();
             dead = true;
         }
-        else if(status != MovementStatus.hurt)
+        else if (status != MovementStatus.hurt)
         {
             Movement();
         }
@@ -62,6 +63,7 @@ public class PlayerController : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal");
         UpdateAnimationState();
     }
+
     private void Movement()
     {
         // Horzontal movement
@@ -72,17 +74,17 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             jumpSoundEffect.Play();
-            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed); 
+            rb.velocity = new Vector2(rb.velocity.x, jumpSpeed);
         }
     }
 
     private void UpdateAnimationState()
     {
-        if(status == MovementStatus.running && !Walkeffect.isPlaying)
+        if (status == MovementStatus.running && !Walkeffect.isPlaying)
         {
-             Walkeffect.Play();
+            Walkeffect.Play();
         }
-        
+
         if (dirX > 0f)
         {
             status = MovementStatus.running;
@@ -128,7 +130,6 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Powerup_Pineapple");
                 jumpSpeed = 20f;
                 GetComponent<SpriteRenderer>().color = Color.yellow;
-                StartCoroutine(ResetPower());
             }
 
             if (other.gameObject.name.Contains("Melon"))
@@ -136,8 +137,14 @@ public class PlayerController : MonoBehaviour
                 Debug.Log("Powerup_Melon");
                 moveSpeed = 14f;
                 GetComponent<SpriteRenderer>().color = Color.red;
-                StartCoroutine(ResetPower());
             }
+
+            // Refresh the powerup timer
+            if (powerupCoroutine != null)
+            {
+                StopCoroutine(powerupCoroutine);
+            }
+            powerupCoroutine = StartCoroutine(ResetPower());
         }
     }
 
@@ -145,7 +152,8 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            if(status == MovementStatus.falling){
+            if (status == MovementStatus.falling)
+            {
                 other.gameObject.GetComponent<EnemyController>().setDead(true);
             }
         }
@@ -181,17 +189,18 @@ public class PlayerController : MonoBehaviour
     private IEnumerator ResetPower()
     {
         yield return new WaitForSeconds(5);
-        if(jumpSpeed > 14f)
+        if (jumpSpeed > 14f)
         {
             jumpSpeed = 14f;
         }
-        
-        if(moveSpeed > 7f)
+
+        if (moveSpeed > 7f)
         {
             moveSpeed = 7f;
         }
         GetComponent<SpriteRenderer>().color = Color.white;
     }
+
     private void Die()
     {
         Deathsoundeffect.Play();
