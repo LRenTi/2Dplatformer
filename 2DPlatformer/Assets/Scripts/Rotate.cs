@@ -5,12 +5,9 @@ using UnityEngine;
 public class Rotate : MonoBehaviour
 {
     [SerializeField] private float speed = 2f;
- 
     private void Update()
     {
-
+        // Dreht das Objekt um die Z-Achse mit einer bestimmten Geschwindigkeit
         transform.Rotate(0, 0, 360 * speed * Time.deltaTime);
-
-
     }
 }
