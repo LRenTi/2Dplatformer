@@ -11,6 +11,7 @@ public class LevelMenu : MonoBehaviour
 
     private void Awake()
     {
+        // Zeigt die Levels an und macht die Buttons für die spielbare Levels interagierbar
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
         for (int i = 0; i < buttons.Length; i++)
         {
@@ -22,6 +23,7 @@ public class LevelMenu : MonoBehaviour
         }
     }
 
+    // Lädt das Level nach der Auswahl vom Spieler
     public void OpenLevel(int levelId)
     {
         string levelName = "Level " + levelId;

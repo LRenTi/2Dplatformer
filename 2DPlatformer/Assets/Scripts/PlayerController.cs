@@ -43,34 +43,37 @@ public class PlayerController : MonoBehaviour
         IsGrounded();
     }
 
+    // Überprüft, ob er am Boden ist(damit er springen kann)
     private bool IsGrounded()
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, 0.1f, jumpableGround);
     }
 
     private void Update()
-    {
+    {   
+        // Wenn der Player stirbt
         if (hp < 1 && !dead)
         {
             Die();
             dead = true;
         }
-        else if (status != MovementStatus.hurt)
+        else 
         {
             Movement();
         }
 
+        // Hol den Horizontalen Input vom Spieler
         dirX = Input.GetAxisRaw("Horizontal");
         UpdateAnimationState();
     }
 
     private void Movement()
     {
-        // Horzontal movement
+        // Horizontal Bewegung
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
 
-        // Vertical movement
+        // Wenn der Spieler am Boden ist und springt
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             jumpSoundEffect.Play();
@@ -80,11 +83,13 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateAnimationState()
     {
+        // Spielt die Beweg Sounds ab
         if (status == MovementStatus.running && !Walkeffect.isPlaying)
         {
             Walkeffect.Play();
         }
-
+    	
+        // if/else Kette sorgt dafür, dass das Spielermodel in die richtige Richtung schaut UND die richtige Animation abspielt
         if (dirX > 0f)
         {
             status = MovementStatus.running;
@@ -101,6 +106,7 @@ public class PlayerController : MonoBehaviour
             status = MovementStatus.idle;
         }
 
+        // if/else Kette sorgt dafür, dass die Animation fürs springen und fallen richtig abgespielt werden
         if (rb.velocity.y > .1f)
         {
             Walkeffect.Stop();
@@ -116,15 +122,17 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D other)
-    {
+    {   
+        // Wenn das Objekt eine "Strawberry" ist --> erhöhe die Leben um 1
         if (other.gameObject.CompareTag("Strawberry"))
         {
             hp++;
             HPText.text = "HP: " + hp;
         }
-        //Wenn das Objekt den richtigen Tag hat
+        // Wenn das Objekt eine "PowerUp" ist:
         if (other.gameObject.CompareTag("Powerup"))
-        {
+        {   
+            // --> Erhöhe die Springhöhe
             if (other.gameObject.name.Contains("Pineapple"))
             {
                 Debug.Log("Powerup_Pineapple");
@@ -132,6 +140,7 @@ public class PlayerController : MonoBehaviour
                 GetComponent<SpriteRenderer>().color = Color.yellow;
             }
 
+            // --> Erhöhe die Geschwindigkeit
             if (other.gameObject.name.Contains("Melon"))
             {
                 Debug.Log("Powerup_Melon");
@@ -139,7 +148,7 @@ public class PlayerController : MonoBehaviour
                 GetComponent<SpriteRenderer>().color = Color.red;
             }
 
-            // Refresh the powerup timer
+            // Refresht denn PowerUp Timer
             if (powerupCoroutine != null)
             {
                 StopCoroutine(powerupCoroutine);
@@ -149,36 +158,30 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.tag == "Enemy")
-        {
-            if (status == MovementStatus.falling)
-            {
-                other.gameObject.GetComponent<EnemyController>().setDead(true);
-            }
-        }
+    {   
+        // Wenn es eine "Trap" ist --> ein HP weniger
         if (other.gameObject.CompareTag("Trap"))
         {
             hp--;
             HPText.text = "HP: " + hp;
         }
+        // Wenn es eine "InstaKillTrap" ist --> HP auf 0 setzten
         if (other.gameObject.CompareTag("InstaKillTrap"))
         {
             hp = 0;
             HPText.text = "HP: " + hp;
         }
+        // Wenn es eine "Enemy" ist:
         if (other.gameObject.CompareTag("Enemy"))
-        {
+        {   
+            // Wenn der Spieler auf den Enemy springt --> setzten den Enemy auf "Dead" 
             if (status == MovementStatus.falling)
             {
+                other.gameObject.GetComponent<EnemyController>().setDead(true);
                 rb.velocity = new Vector2(rb.velocity.x, 10);
             }
+            // Wenn der Spieler gegen den Enemy läuft --> ein HP weniger
             else if (other.gameObject.transform.position.x > transform.position.x)
-            {
-                hp--;
-                HPText.text = "HP: " + hp;
-            }
-            else
             {
                 hp--;
                 HPText.text = "HP: " + hp;

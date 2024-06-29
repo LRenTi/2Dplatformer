@@ -6,16 +6,10 @@ public class CheckpointPlayerPos : MonoBehaviour
 {
     private Checkpointmaster GM;
     
-    // Start is called before the first frame update
+    // Sorgt dafür, dass beim Laden vom Level, der Player auf eine richtige Position gebracht wird(Default-Location oder Checkpoint-Location)
     void Start()
     {
         GM = GameObject.FindGameObjectWithTag("GM").GetComponent<Checkpointmaster>();
-        transform.position = GM.lastCheckPointPos;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        transform.position = GM.lastCheckPointPos;                                      
     }
 }

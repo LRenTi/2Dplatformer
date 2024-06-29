@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    [SerializeField] private GameObject[] waypoints;
+    // "SerializeField" --> in Unity die Variablen setzen 
+    [SerializeField] private GameObject[] waypoints;            // "Waypoints" sind dafür da, um den Enemy eine Path zum Gehen zu geben
     private int currentWaypointIndex = 0;
     [SerializeField] private float speed = 2f;
 
@@ -19,8 +20,9 @@ public class EnemyController : MonoBehaviour
     private Animator anim;
     private bool facingRight = true;
     private bool dead = false;
-    private bool isVisible = false; // Variable to track visibility
-
+    private bool isVisible = false; // Variable um die Sichtbarkeit zu tracken
+    
+    // Wenn der Player auf den Enemy draufspringt
     public void setDead(bool choice)
     {
         dead = choice;
@@ -35,7 +37,8 @@ public class EnemyController : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
+        // Wenn der Enemy stirbt
         if (dead)
         {
             Deathsound.Play();
@@ -45,9 +48,11 @@ public class EnemyController : MonoBehaviour
             dead = false;
         }
         else
-        {
+        {   
+            // Wenn die Distanz zu einem Waypoint kleiner als 0.1 ist
             if (Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position) < .1f)
             {
+                // Für EnemyAnimation und Bewegrichtung
                 if (facingRight)
                 {
                     transform.localScale = new Vector2(1, 1);
@@ -59,16 +64,18 @@ public class EnemyController : MonoBehaviour
                     facingRight = true;
                 }
 
+                // Damit sich der Path zu den Waypoints ändert
                 currentWaypointIndex++;
                 if (currentWaypointIndex >= waypoints.Length)
                 {
                     currentWaypointIndex = 0;
                 }
             }
-
+            
+            // Sorgt für die Bewegung
             transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointIndex].transform.position, Time.deltaTime * speed);
 
-            // Control the sound based on visibility
+            // Kontrolliert die Sichbarkeit zum Player und spielt/stoppt den Sound dementsprechend --> MUSS in "Update" sein, damit der Sound kontinuierlich abspielt
             if (isVisible && !Enemywalksound.isPlaying)
             {
                 Enemywalksound.Play();
@@ -88,6 +95,5 @@ public class EnemyController : MonoBehaviour
     private void OnBecameInvisible()
     {
         isVisible = false;
-        Enemywalksound.Pause();
     }
 }

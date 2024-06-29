@@ -13,16 +13,14 @@ public class ItemDisappear : MonoBehaviour
         Anim = GetComponent<Animator>();
     }
 
-    //Wenn der Spieler mit einem Objekt dagegen stoßt
+    // Wenn der Spieler mit einem Objekt dagegen stoßt
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //Wenn das Objekt den richtigen Tag hat
+        // Wenn das Objekt den richtigen Tag hat
         if(collision.gameObject.CompareTag("Player"))
         {
             Anim.SetBool("collected", true);
             //Destroy(collision.gameObject);
-            //Debug.Log(collision.gameObject);
-            //Debug.Log(collision);
         }
     }
 }

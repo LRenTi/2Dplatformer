@@ -8,13 +8,14 @@ public class Checkpointmaster : MonoBehaviour
     public Vector2 defaultSpawnPos = new Vector2(-0.04f, 3.19f); // Default spawn coordinates
     public Vector2 lastCheckPointPos;
 
-    void Awake()
+    //Wenn die Objekt für das Level zum ersten Mal geladen werden(wird vor "void Start" aufgerufen)
+    void Awake()                                            
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(instance);
-            lastCheckPointPos = defaultSpawnPos; // Initialize to default spawn position
+            DontDestroyOnLoad(instance);                    // Sorgt dafür, dass wenn das beim Levelreset(zB.: PlayerDeath) die erreichten Checkpoints sich merkt
+            lastCheckPointPos = defaultSpawnPos;            // Initialize to default spawn position
         }
         else
         {
@@ -22,8 +23,8 @@ public class Checkpointmaster : MonoBehaviour
         }
     }
 
-    // Call this method when a new level is loaded
-    public void ResetCheckpoint()
+    // Methode wird beim Laden von einem neuem Level aufgerufen
+    public void ResetCheckpoint()                           
     {
         lastCheckPointPos = defaultSpawnPos;
     }
