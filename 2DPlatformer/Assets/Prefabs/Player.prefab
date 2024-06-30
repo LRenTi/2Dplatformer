@@ -319,8 +319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strawberryText: {fileID: 0}
-  Collectsound: {fileID: 2515579109881270691}
-  Collectsound2: {fileID: 3948136745118577310}
+  collectsound_Strawberry: {fileID: 2515579109881270691}
+  collectsound_PowerUp: {fileID: 3948136745118577310}
 --- !u!82 &8417469333995829091
 AudioSource:
   m_ObjectHideFlags: 0
