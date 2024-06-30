@@ -17,12 +17,17 @@ public class ItemCollector : MonoBehaviour
         // Wenn das Objekt ein "Strawberry" ist
         if(collision.gameObject.CompareTag("Strawberry"))
         {
-            collectsound_Strawberry.time = 0.2f;
-            collectsound_Strawberry.Play();
             // Zerstört das Strawberry Objekt nach 0.3 Sekunde(damit eine Animation existieren kann)
             Destroy(collision.gameObject, 0.3f);
+            
+            // Erhöht den Counter UND fügt die Zahl in ein Text hinein(muss in Unity definiert werden) 
             strawberryCount++;
             strawberryText.text = "Strawberries: " + strawberryCount;
+
+            // Spiel den Sound ab
+            // MUSS AM ENDE STEHEN, weil wenn der Sound in Unity nicht definiert wurde, stürzt dieses Skript ab. Alles vorher kann aber trotz Absturz funktionieren
+            collectsound_Strawberry.time = 0.2f;
+            collectsound_Strawberry.Play();
         }
         // Wenn das Objekt ein "PowerUp" ist
         if(collision.gameObject.CompareTag("Powerup"))

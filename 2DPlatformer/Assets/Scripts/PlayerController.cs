@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
             // --> Erhöhe die Springhöhe
             if (other.gameObject.name.Contains("Pineapple"))
             {
-                Debug.Log("Powerup_Pineapple");
+                //Debug.Log("Powerup_Pineapple");
                 jumpSpeed = 20f;
                 GetComponent<SpriteRenderer>().color = Color.yellow;
             }
@@ -143,7 +143,7 @@ public class PlayerController : MonoBehaviour
             // --> Erhöhe die Geschwindigkeit
             if (other.gameObject.name.Contains("Melon"))
             {
-                Debug.Log("Powerup_Melon");
+                //Debug.Log("Powerup_Melon");
                 moveSpeed = 14f;
                 GetComponent<SpriteRenderer>().color = Color.red;
             }
