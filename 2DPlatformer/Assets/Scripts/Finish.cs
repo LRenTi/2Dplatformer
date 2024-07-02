@@ -9,17 +9,18 @@ public class Finish : MonoBehaviour
     private bool levelCompleted = false;
     public GameObject player;
 
-    private Checkpointmaster checkpointMaster; // Reference to the Checkpointmaster
+    private Checkpointmaster checkpointMaster; // Referenz zum Checkpointmaster
 
-    // Start is called before the first frame update
     private void Start()
     {
+        // Befüllt die Variablen
         finishSound = GetComponent<AudioSource>();
         checkpointMaster = GameObject.FindGameObjectWithTag("GM").GetComponent<Checkpointmaster>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        // Wenn das kollidierte Objekt ein "Player" ist
         if (collision.gameObject.tag == "Player" && !levelCompleted)
         {
             finishSound.Play();
@@ -31,8 +32,10 @@ public class Finish : MonoBehaviour
 
     void UnlockNewLevel()
     {
+        // Holt sich den Index vom Level
         if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
         {
+            // Speichert den Index in die Levelselection und "unlocked" das nächste Level
             PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
             PlayerPrefs.Save();
         }
@@ -40,12 +43,13 @@ public class Finish : MonoBehaviour
 
     private void CompleteLevel()
     {
-        // Reset the checkpoint position before loading the new level
+        // Checkpointposition wird zurückgesetzt auf den Default Wert
         if (checkpointMaster != null)
         {
             checkpointMaster.ResetCheckpoint();
         }
 
+        // Lädt das nächste Level
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

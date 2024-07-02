@@ -4,21 +4,22 @@ using UnityEngine;
 
 public class StickyPlatform : MonoBehaviour
 {
+    // Konstante für den Tag-Namen des Spielers
+    private const string PlayerTag = "Player";
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.CompareTag(PlayerTag))
         {
-            collision.gameObject.transform.SetParent(transform);
+            collision.transform.SetParent(transform);
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player")
+        if (collision.CompareTag(PlayerTag))
         {
-            collision.gameObject.transform.SetParent(null);
+            collision.transform.SetParent(null);
         }
     }
-
 }

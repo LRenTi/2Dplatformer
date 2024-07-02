@@ -121,7 +121,7 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &4646524644928470173
 BoxCollider2D:
@@ -319,8 +319,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strawberryText: {fileID: 0}
-  Collectsound: {fileID: 2515579109881270691}
-  Collectsound2: {fileID: 3948136745118577310}
+  collectsound_Strawberry: {fileID: 2515579109881270691}
+  collectsound_PowerUp: {fileID: 3948136745118577310}
 --- !u!82 &8417469333995829091
 AudioSource:
   m_ObjectHideFlags: 0
@@ -633,7 +633,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 35fbad8cdde724f11ba6481f1e64af71, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.192
   m_Pitch: 1
   Loop: 0
   Mute: 0
